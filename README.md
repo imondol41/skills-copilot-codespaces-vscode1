@@ -1,6 +1,7 @@
-# flutterbus
+# flutterbustracking
 
-A new Flutter project.
+A new Flutter project. 
+University Bus Tracking System
 
 ## Getting Started
 
