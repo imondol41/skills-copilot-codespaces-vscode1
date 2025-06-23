@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "518519944522",
+    "firebase_url": "https://realtimebus-c61cd.firebaseio.com",
+    "project_id": "realtimebus-c61cd",
+    "storage_bucket": "realtimebus-c61cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518519944522:android:42a603a44259138210fdb3",
+        "android_client_info": {
+          "package_name": "com.example.bus_tracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AtzaSyA1FfYb9wD4k4afKU-KJzsnSfYHgnx0UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+} 
