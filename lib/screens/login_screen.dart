@@ -4,6 +4,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'signup_screen.dart'; // To be created
+import 'forgot_password_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -215,7 +216,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   const SizedBox(height: 20),
                   TextButton(
                     onPressed: () {
-                      // TODO: Implement Forgot Password
+                      Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const ForgotPasswordScreen(),
+                      ));
                     },
                     child: const Text(
                       'Forgot Password?',
